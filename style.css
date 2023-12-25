@@ -28,6 +28,13 @@ h3 {
 ul {
   list-style: none;
 }
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
 .greeting {
   font-weight: bold;
 }
