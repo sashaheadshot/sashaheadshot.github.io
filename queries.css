@@ -1,0 +1,83 @@
+/* Media Queries for Tablets */
+@media (max-width: 768px) {
+  body {
+    width: 80%; /* Full width for tablets */
+  }
+
+  h3 {
+    font-size: 1.5rem; /* Adjust font size for tablets */
+  }
+
+  .image {
+    width: 3rem; /* Adjust image size for tablets */
+    height: 3rem; /* Adjust image size for tablets */
+  }
+
+  .Projects {
+    grid-template-columns: 1fr; /* Single column for tablets */
+  }
+
+  .boxes {
+    margin-bottom: 1rem; /* Add spacing between boxes for tablets */
+  }
+
+  footer {
+    margin-top: 2rem; /* Adjust margin for tablets */
+  }
+}
+
+/* Media Queries for Mobile Phones */
+@media (max-width: 560px) {
+  body {
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 1.25rem; /* Adjust font size for mobile phones */
+  }
+
+  .image {
+    width: 2.5rem; /* Adjust image size for mobile phones */
+    height: 2.5rem; /* Adjust image size for mobile phones */
+  }
+
+  .Projects {
+    grid-template-columns: 1fr; /* Single column for mobile phones */
+  }
+
+  .boxes {
+    margin-bottom: 1rem; /* Add spacing between boxes for mobile phones */
+  }
+
+  footer {
+    margin-top: 1.5rem; /* Adjust margin for mobile phones */
+  }
+}
+
+/* Media Queries for Mobile Phones */
+@media (max-width: 480px) {
+  body {
+    width: 80%;
+  }
+
+  h3 {
+    font-size: 1.25rem; /* Adjust font size for mobile phones */
+  }
+
+  .image {
+    width: 2.5rem; /* Adjust image size for mobile phones */
+    height: 2.5rem; /* Adjust image size for mobile phones */
+  }
+
+  .Projects {
+    grid-template-columns: 1fr; /* Single column for mobile phones */
+  }
+
+  .boxes {
+    margin-bottom: 1rem; /* Add spacing between boxes for mobile phones */
+  }
+
+  footer {
+    margin-top: 1.5rem; /* Adjust margin for mobile phones */
+  }
+}
