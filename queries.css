@@ -5,7 +5,7 @@
   }
 
   .greeting {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h3 {
@@ -37,7 +37,7 @@
   }
 
   .greeting {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
   h3 {
     font-size: 1.25rem; /* Adjust font size for mobile phones */
@@ -68,7 +68,7 @@
   }
 
   .greeting {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h3 {
@@ -99,8 +99,13 @@
     width: 80%;
   }
 
+  .navigation {
+    justify-content: right;
+    gap: 1rem;
+  }
+
   .greeting {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   h3 {
