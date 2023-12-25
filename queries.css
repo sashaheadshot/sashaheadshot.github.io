@@ -4,6 +4,10 @@
     width: 80%; /* Full width for tablets */
   }
 
+  .greeting {
+    font-size: 1.5rem;
+  }
+
   h3 {
     font-size: 1.5rem; /* Adjust font size for tablets */
   }
@@ -32,6 +36,9 @@
     width: 80%;
   }
 
+  .greeting {
+    font-size: 1.5rem;
+  }
   h3 {
     font-size: 1.25rem; /* Adjust font size for mobile phones */
   }
@@ -58,6 +65,42 @@
 @media (max-width: 480px) {
   body {
     width: 80%;
+  }
+
+  .greeting {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem; /* Adjust font size for mobile phones */
+  }
+
+  .image {
+    width: 2.5rem; /* Adjust image size for mobile phones */
+    height: 2.5rem; /* Adjust image size for mobile phones */
+  }
+
+  .Projects {
+    grid-template-columns: 1fr; /* Single column for mobile phones */
+  }
+
+  .boxes {
+    margin-bottom: 1rem; /* Add spacing between boxes for mobile phones */
+  }
+
+  footer {
+    margin-top: 1.5rem; /* Adjust margin for mobile phones */
+  }
+}
+
+/* Media Queries for Mobile Phones_3 */
+@media (max-width: 376px) {
+  body {
+    width: 80%;
+  }
+
+  .greeting {
+    font-size: 1.5rem;
   }
 
   h3 {
