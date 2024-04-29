@@ -1,6 +1,6 @@
 @font-face {
   font-family: Alex;
-  src: url(../11111/fonts/Inconsolata-Black.ttf);
+  src: url(../11111/fonts/Inconsolata_Condensend-Black.ttf);
 }
 
 header {
@@ -14,25 +14,38 @@ body {
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  font-family: Inconsolata;
 }
 
 h4 {
   display: block;
+  font-family: Inconsolata;
+  margin-bottom: 10px;
+  font-family: Inconsolata;
 }
 
 h3 {
   font-weight: bold;
   font-size: 32px;
+  font-family: Inconsolata;
+}
+
+h2 {
+  font-family: Inconsolata;
 }
 
 ul {
   list-style: none;
+  font-family: Inconsolata;
 }
 
 .navigation {
   display: flex;
   align-items: center;
   gap: 3rem;
+  font-family: Inconsolata;
 }
 
 .greeting {
@@ -41,6 +54,8 @@ ul {
 
 .my_description {
   line-height: 2;
+  font-size: 18px;
+  font-family: Inconsolata;
 }
 
 .change_color {
@@ -75,13 +90,13 @@ ul {
   border-color: rgb(207, 207, 207);
   border-radius: 25px;
   padding: 15px;
-  transition: 1s;
+  transition: 0.3s;
 }
 
 .boxes:hover {
   border-color: rgb(231, 71, 159);
   cursor: pointer;
-  transition: 1s;
+  transition: 0.3s;
   box-shadow: 0px 0px 15px rgba(231, 71, 159);
   scale: 1.01;
 }
@@ -98,4 +113,17 @@ footer {
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: rgb(207, 207, 207);
   margin-top: 64px;
+}
+
+.languages_list {
+  line-height: 2;
+  font-size: 18px;
+}
+
+.project_discription {
+  font-family: Inconsolata;
+}
+
+.navigation:hover {
+  font-family: Inconsolata;
 }
